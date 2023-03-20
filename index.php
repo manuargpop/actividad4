@@ -1,11 +1,11 @@
 <?php
-$servername = "localhost";
-$database = "actividad4";
-$username = "root";
-$password = "";
+$host = "sql207.epizy.com";
+$database = "epiz_33838860_actividad4";
+$username = "epiz_33838860";
+$password = "5NrupkqMI60m";
 
 // Crea conexion
-$conexion = mysqli_connect($servername, $username, $password, $database);
+$conexion = mysqli_connect($host, $username, $password, $database);
 
 // Checkea
 if (!$conexion) {
